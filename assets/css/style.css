@@ -7,31 +7,32 @@
    */
 
   /** Background colors */
-  --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --bg-carolina-blue: hsla(199, 89%, 49%, 1);
-  --bg-prussian-blue: hsla(216, 33%, 20%, 1);
-  --bg-oxford-blue: hsla(222, 44%, 13%, 1);
-  --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
+  --bg-wild-blue-yonder: #71C9CE;
+  --bg-carolina-blue: #71C9CE;
+  --bg-prussian-blue: #71C9CE;
+  --bg-oxford-blue: #A6E3E9;
+  --bg-oxford-blue-2: #E3FDFD;
+  --bg-all-black: #000000;
 
   /** Text colors */
-  --text-white: hsla(0, 0%, 100%, 1);
-  --text-alice-blue: hsla(216, 100%, 95%, 1);
-  --text-columbia-blue: hsla(199, 69%, 84%, 1);
-  --text-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --text-carolina-blue: hsla(199, 89%, 49%, 1);
-  --text-shadow-blue: hsla(217, 24%, 59%, 1);
-  --text-slate-gray: hsla(217, 17%, 48%, 1);
+  --text-white: rgb(0, 0, 0);
+  --text-alice-blue: rgb(0, 0, 0); /**navbar**/
+  --text-columbia-blue: rgb(0, 0, 0);
+  --text-wild-blue-yonder: rgb(3, 1, 1); /**navbar**/
+  --text-carolina-blue: rgb(0, 0, 0);
+  --text-shadow-blue: rgb(17, 1, 1);
+  --text-slate-gray: rgb(0, 0, 0);
 
   /** Gradient colors */
-  --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
-  --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
-  --gradient-3: linear-gradient(0deg, #000d1a, transparent);
+  --gradient-1: linear-gradient(90deg, #00c1d3, #0c3a3a 51%);
+  --gradient-2: linear-gradient(90deg, #0ea5ea, #0f619b 51%, #120c6c);
+  --gradient-3: linear-gradient(0deg, #ffffff, transparent);
 
   /** Border colors */
-  --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --border-prussian-blue: hsla(216, 33%, 20%, 1);
+  --border-wild-blue-yonder: #71C9CE;
+  --border-prussian-blue: rgb(169, 183, 203);
   --border-white: hsl(0, 0%, 100%);
-  --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
+  --border-white-alpha-15: hsla(0, 25%, 76%, 0.15);
 
   /** Default colors */
   --white: hsl(0, 0%, 100%, 1);

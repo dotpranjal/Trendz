@@ -111,3 +111,15 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+/** redirecting **/
+
+function instafunc(){
+  window.location.href = "https://www.instagram.com/dotpranjal/";
+}
+
+function darkactive(){
+  document.body.style.backgroundColor = 'var(--bg-all-black)';
+  document.body.style.color = 'var(--bg-oxford-blue)';
+  
+}
